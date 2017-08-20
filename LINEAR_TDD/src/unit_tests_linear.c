@@ -56,6 +56,7 @@
 #include <conf_board.h>
 
 #include "rwMaths.h"
+
 //#include "C:/Users/Ron/Documents/dev/rwCLib/rwMaths.h"
 //
 //#include <C:/Users/Ron/Documents/dev/rwCLib/rwMaths.h>
@@ -941,6 +942,13 @@ rwMaths test functions
 static void run_rwmaths_YfromX_test(const struct test_case *test)
 {
 	test_assert_true(test,  (calcYfromX(0) == 0), "Test calcYfromX: '0' failed");
+	// testing that x < 0 is rejected
+	test_assert_true(test,  (calcYfromX(-1) == ERR_X_BELOW_0), "Test calcYfromX: 'x below 0' failed");
+	// testing that x > 46341 is rejected
+	test_assert_true(test,  (calcYfromX(46342) == ERR_X_GREATER_THEN_A46341), "Test calcYfromX: 'x > 46341' failed");
+	
+	// add 46341 test
+	// add 0 test
 }
 
 
