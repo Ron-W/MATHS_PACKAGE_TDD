@@ -931,16 +931,16 @@ rwMaths test functions
 
 */
 /**
- * \brief Test SPI setting.
+ * \brief Tests run_rwmaths_YfromX_test.
  *
- * This test tests SPI reset/enable/disable.
+ * This tests the 'uint32_t calcYfromX(uint32_t x)' can correctly calculate the
+ * 'Y' value from 'x'.
  *
  * \param test Current test case.
  */
 static void run_rwmaths_YfromX_test(const struct test_case *test)
 {
-	test_assert_true(test,  (calcYfromX(0) == 0),
-	"Test calcYfromX: '0' failed");
+	test_assert_true(test,  (calcYfromX(0) == 1), "Test calcYfromX: '0' failed");
 }
 
 
