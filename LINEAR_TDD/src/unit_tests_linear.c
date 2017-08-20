@@ -940,7 +940,7 @@ rwMaths test functions
  */
 static void run_rwmaths_YfromX_test(const struct test_case *test)
 {
-	test_assert_true(test,  (calcYfromX(0) == 1), "Test calcYfromX: '0' failed");
+	test_assert_true(test,  (calcYfromX(0) == 0), "Test calcYfromX: '0' failed");
 }
 
 

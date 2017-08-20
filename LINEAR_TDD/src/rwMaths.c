@@ -11,7 +11,7 @@
 
 uint32_t calcYfromX(uint32_t x)
 {
-	return (uint32_t)0;
+	return x;
 }
 
 char returnChar(void)
