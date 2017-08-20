@@ -993,8 +993,9 @@ int main(void)
 	test_suite_run(&spi_suite);
 	
 	
-	
-	/* Define all maths test cases */
+	/*								*/
+	/* Define all maths test cases	*/
+	/*								*/
 	DEFINE_TEST_CASE(rwmaths_YfromX_test, NULL, run_rwmaths_YfromX_test, NULL,
 	"rwMaths test suite");
 
