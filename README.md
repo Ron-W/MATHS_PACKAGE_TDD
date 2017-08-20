@@ -3,6 +3,7 @@ Practice at using TDD techniques
 
 This project is an initial attempt at programming using the test driven development (TDD) method.
 The code under development is a maths library called (rwMaths.c). The initial set of functions to be developed will return the unknown value of the linear equation:
+
 y = mx + c.
 
 The project is based on a copy of the SPI Unit test example given in the Atmel Studio (version 7.0). This will be changed to:
