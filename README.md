@@ -11,7 +11,7 @@ The project is based on a copy of the SPI Unit test example given in the Atmel S
 2.	remove the original code for the SPI test.
 Resources: It is thought that the following SlideShare will be used to help in the TDD process: https://www.slideshare.net/amritayan/test-driven-development-in-c
 
-### Developing - uint32_t calcYfromX(uint32_t x)
+### Developing the first function - uint32_t calcYfromX(uint32_t x)
 
 This function assumes that 'm' = 1 and c = '0'.
 
